@@ -1,7 +1,16 @@
-# My-first-project
+#!/usr/bin/env bash
 
-**Anthony**
+mkdir Games
+mkdir Games/World-of-Warcraft
+mkdir Games/Diablo3
 
-_39_
+touch Games/World-of-Warcraft/location.txt
+touch Games/Diablo-3/location.txt
 
-I spend too much time on wow
+echo$(pwd)/Games/World-of-Warcraft/location.txt
+echo(pwd)/Games/Diablo-3/location.txt
+
+cat Games/World-of-Warcraft/location.txt
+cat Games/Diablo-3/location.txt
+
+rm -rfGames
